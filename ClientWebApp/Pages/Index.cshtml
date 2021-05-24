@@ -12,7 +12,7 @@
 <script>
     $(document).ready(function () {
         $.ajax({
-            type: "POST",
+            type: "GET",
             url: "https://webappnewapi.azurewebsites.net/weatherforecast",
             dataType: "json",
             success: function (result) {
